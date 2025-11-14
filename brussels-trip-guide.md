@@ -1,5 +1,26 @@
 # Brussels Trip Guide
 **Dates**: Wednesday - Friday
+**Hotel**: Thon Residence Parnasse, Ixelles
+
+---
+
+## Weather Forecast
+
+**Expected Conditions**: Cool and damp (typical late November weather)
+- **Temperature**: Highs around 10-12°C, lows around 5-6°C
+- **Rainfall**: Likely throughout the week - bring an umbrella!
+- **Wind**: Moderate to strong winds (~24 km/h)
+- **What to Pack**: Warm layers, waterproof jacket, umbrella, comfortable walking shoes
+
+---
+
+## Your Hotel: Thon Residence Parnasse
+
+**Location**: Ixelles, European Quarter
+- Near Luxembourg train station (direct connection to Brussels airport)
+- Walking distance to Place du Luxembourg (restaurants and nightlife)
+- Great location for exploring Ixelles Art Nouveau architecture
+- Several cafes, restaurants, and grocery stores nearby
 
 ---
 
@@ -100,6 +121,39 @@ Best Belgian cuisine with typical Bruxellois interiors, generous portions, simpl
 #### Leon (for Moules-Frites)
 Famous restaurant popular with tourists and locals for reasonably-priced mussels and fries - the classic Belgian pairing!
 
+### Chinese Restaurants 🥢
+
+Since you're looking for excellent Chinese food, here are the best options in Brussels:
+
+#### Top Recommendations:
+- **Yi Chan**: Family-run restaurant near Brussels Stock Exchange. Expertly crafted dim sum (xiao long bao, char siu bao) and flavorful pho bowls
+- **Dam Sum**: One of the best dim sum places in Brussels - highly recommended
+- **Le Confucius**: Fantastic food, welcoming atmosphere, fair prices - definitely worth a visit
+- **WOKUP**: Small, intimate restaurant serving authentic Chinese food in contemporary setting
+
+#### Other Excellent Options:
+- **Beijingya**: Highly rated on Yelp (2025)
+- **Xu Ji**: Popular choice for authentic cuisine
+- **Au Bon Bol**: Consistently recommended
+- **Happy Buddha**: Well-regarded
+- **Hong Kong Delight**: Good choice for Cantonese food
+
+### Desserts & Patisseries 🍰
+
+For your love of great desserts, Brussels has world-class patisseries:
+
+#### Must-Visit:
+- **Wittamer**: A Brussels institution for over 100 years, many consider it the pinnacle of pastry shops in the Belgian capital. Located opposite Pierre Marcolini
+- **Pierre Marcolini**: Voted world's best pastry chef in 2020. Exceptional chocolates and pastries
+- **Nicolas Arnaud**: One of the big names in pastry making in Belgium and France. Workshop in Châtelain district is foodie heaven
+- **Saint-Aulaye**: Traditional craft bakery, a reference in Brussels for almost 40 years
+
+#### Popular Choices:
+- **Aux Merveilleux de Fred**: Known for exquisite brioche and exceptional desserts
+- **Méert**: Classic Belgian patisserie
+- **Maison Dandoy**: Famous for traditional Belgian biscuits and waffles
+- **Gâteau**: Boulangerie-patisserie by French artisan baker Baptiste Maurel
+
 ### Other Highly Rated Options
 
 - **Cave du Roy**: Popular choice
@@ -134,31 +188,41 @@ Brussels has good public transport (metro, trams, buses). The city center is wal
 
 ### Wednesday Morning (Free Time)
 - Start at **Grand Place** for coffee
+- Stop by **Wittamer** or **Pierre Marcolini** for morning pastries
 - Explore **Les Galeries Royales Saint-Hubert**
 - Visit **Choco-Story** or **Cantillon Brewery**
 - Walk the **Comic Strip Mural Route**
 
 ### Wednesday Evening (After Meetings)
-- Dinner at **Le Plattesteen** or **Au Vieux Saint Martin** (traditional Belgian)
+- Dinner options:
+  - **Yi Chan** or **Dam Sum** (Chinese/dim sum)
+  - **Le Plattesteen** or **Au Vieux Saint Martin** (traditional Belgian)
+- Dessert at **Nicolas Arnaud** (Châtelain district, near your hotel!)
 - Evening stroll through **illuminated Grand Place**
 - Drinks at **Delirium Café** or **L'Archiduc** (jazz)
 
 ### Thursday
 Busy with meetings and dinner - enjoy!
 
+Between meetings, grab a pastry from **Aux Merveilleux de Fred** or **Maison Dandoy**
+
 ### Friday (Full Day Free)
 **Morning:**
 - Visit **The Atomium**
-- Explore **Art Nouveau neighborhoods** (Ixelles, Uccle)
+- Explore **Art Nouveau neighborhoods** in Ixelles (you're staying right there!)
+
+**Lunch:**
+- **Yi Chan** or **WOKUP** (Chinese)
+- **Leon** (moules-frites)
 
 **Afternoon:**
-- Lunch at **Leon** (moules-frites)
+- Dessert crawl: Visit **Saint-Aulaye**, **Méert**, or **Gâteau**
 - Discover hidden gems: **Rue de la Cigogne**, **The Black Tower**
 - Explore **St. Gilles** or **Matongé** neighborhoods
 
 **Evening:**
-- Fine dining at **Woodpeck 47** or **Sir Kwinten**
-- Nightlife in **Saint-Géry** or **Ixelles**
+- Dinner: **Le Confucius** (Chinese) or **Woodpeck 47**/**Sir Kwinten** (fine dining)
+- Nightlife in **Saint-Géry** or explore **Place du Luxembourg** (near your hotel)
 
 ---
 
