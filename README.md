@@ -1,213 +1,413 @@
-# Claude Code Internet Search Skill
+# Claude Code General-Purpose Agent
 
-A comprehensive skill for Claude Code that enables intelligent internet searching using multiple tools and APIs. Claude automatically selects the best search tool based on your needs.
+Transform Claude Code into a powerful general-purpose AI agent for productivity, research, communication, and analysis.
 
-## 🌟 Features
+## 🎯 Overview
 
-- **Multi-Tool Support**: Integrates with WebSearch, Firecrawl, Brave Search, Serper, DuckDuckGo, and Google Custom Search
-- **Intelligent Selection**: Claude automatically chooses the best tool for each search task
-- **Privacy Options**: Privacy-focused search tools available (Brave, DuckDuckGo)
-- **Deep Extraction**: Web scraping and structured data extraction with Firecrawl
-- **Comprehensive Coverage**: From quick lookups to in-depth research
+This repository provides a comprehensive setup for Claude Code with:
+- **26+ capabilities** spanning communication, research, planning, and analysis
+- **MCP server integrations** for Gmail, Calendar, Slack, Notion, and more
+- **Auto-activating skills** that provide contextual expertise
+- **Slash commands** for on-demand workflows
+- **Persistent memory** for consistent behavior
+
+## ✨ What's Included
+
+### 🧠 Skills (Auto-Activating Expertise)
+- **Internet Search** - Multi-source web research
+- **Email Analyzer** - Intelligent email triage and response drafting
+- **Meeting Scheduler** - Smart calendar management
+- **Document Summarizer** - Extract insights from long documents
+- **Data Analyzer** - Metrics, trends, and statistical analysis
+
+### ⚡ Slash Commands (Manual Workflows)
+- `/daily-briefing` - Morning overview of calendar, emails, and priorities
+- `/deep-research [topic]` - Comprehensive multi-source research
+- `/weekly-review` - End-of-week reflection and planning
+- `/meeting-prep [meeting]` - Prepare thoroughly for important meetings
+
+### 🔌 MCP Integration Support
+- Gmail (read, search, send emails)
+- Google Calendar (manage events, check availability)
+- Slack (team communication)
+- Notion (knowledge management)
+- File system access
+- Web search APIs
+
+### 📚 Memory & Context
+- **CLAUDE.md** - Persistent preferences and project context
+- Custom memory files for team standards and procedures
 
 ## 🚀 Quick Start
 
-### 1. Install the Skill
+### 1. Clone and Setup
 
-The skill is located in `.claude/skills/internet-search.md` and is automatically available when you use Claude Code in this directory.
+```bash
+git clone https://github.com/yourusername/claude-code-web-tests.git
+cd claude-code-web-tests
+```
 
-### 2. Set Up API Keys (Optional)
+### 2. Configure API Keys (Optional)
 
-For external search tools, create a `.env` file from the template:
-
+Copy the example environment file:
 ```bash
 cp .env.example .env
 ```
 
-Then add your API keys:
-
+Add your API keys for external search services (optional - built-in tools work without them):
 ```env
-FIRECRAWL_API_KEY=your-api-key
-BRAVE_API_KEY=your-api-key
-SERPER_API_KEY=your-api-key
+FIRECRAWL_API_KEY=your-key
+BRAVE_API_KEY=your-key
+SERPER_API_KEY=your-key
 ```
 
-**Note:** The skill works with just the built-in WebSearch tool. External APIs are optional but provide additional capabilities.
+### 3. Set Up MCP Servers (Recommended)
 
-### 3. Use the Skill
+For full capabilities, configure MCP servers for external integrations:
 
-Simply ask Claude to search:
-
-```
-User: Search for the latest TypeScript best practices
-
-User: Extract API documentation from stripe.com
-
-User: Find privacy-focused VPN comparisons
-
-User: What's the latest news on AI regulation?
+```bash
+# See detailed setup guide
+cat MCP-SETUP-GUIDE.md
 ```
 
-Claude will automatically:
-- Select the appropriate search tool
-- Execute the search
-- Present organized results
-- Offer to refine or expand the search
+**Quick MCP setup:**
+```bash
+# Google Calendar
+claude mcp add google-calendar --transport http <url>
 
-## 📚 Documentation
+# Gmail
+claude mcp add gmail --transport http <url>
 
-- **[Skill Documentation](.claude/skills/internet-search.md)** - Complete skill guide with decision matrix and implementation details
-- **[Setup Guide](.claude/skills/README.md)** - Installation and configuration instructions
-- **[Usage Examples](examples/search-examples.md)** - Practical examples and use cases
-
-## 🔧 Supported Search Tools
-
-| Tool | Best For | API Key Required |
-|------|----------|------------------|
-| WebSearch (built-in) | Quick lookups, general searches | No |
-| Firecrawl | Web scraping, content extraction | Yes |
-| Brave Search | Privacy-focused, tech content | Yes |
-| Serper | News, images, Google results | Yes |
-| DuckDuckGo | Anonymous quick searches | No |
-| Google CSE | Comprehensive, custom searches | Yes |
-
-## 📖 Usage Examples
-
-### Quick Web Search
-```
-User: What's the current LTS version of Node.js?
-→ Claude uses WebSearch for quick factual lookup
+# Slack
+claude mcp add slack --transport http <url>
 ```
 
-### Deep Content Extraction
+See **[MCP-SETUP-GUIDE.md](MCP-SETUP-GUIDE.md)** for complete instructions.
+
+### 4. Start Using
+
+Open Claude Code in this directory and try:
+
 ```
-User: Extract all authentication methods from the Auth0 docs
-→ Claude uses Firecrawl to scrape and structure the content
+# Use a skill (auto-activates)
+"Analyze my inbox and prioritize emails"
+"What's on my calendar tomorrow?"
+"Summarize this research paper"
+
+# Use a slash command
+/daily-briefing
+/deep-research AI coding assistants
+/weekly-review
+/meeting-prep tomorrow 10am
 ```
 
-### Privacy-Focused Research
+## 📋 Capabilities Overview
+
+### Communication & Productivity
+
+| Capability | Type | MCP Required | Description |
+|------------|------|--------------|-------------|
+| Email Analysis | Skill | Gmail | Categorize, prioritize, draft responses |
+| Calendar Management | Skill | Google Calendar | Schedule meetings, find availability |
+| Daily Briefing | Command | Gmail + Calendar | Morning overview of day ahead |
+| Meeting Prep | Command | Calendar | Prepare for important meetings |
+| Weekly Review | Command | Gmail + Calendar | End-of-week reflection |
+
+### Research & Analysis
+
+| Capability | Type | MCP Required | Description |
+|------------|------|--------------|-------------|
+| Internet Search | Skill | None* | Multi-source web research |
+| Deep Research | Command | None* | Comprehensive topic investigation |
+| Document Summarizer | Skill | None | Extract insights from long docs |
+| Data Analyzer | Skill | None | Statistical analysis and trends |
+
+*Built-in tools work; MCP enhances capabilities
+
+### Collaboration
+
+| Capability | Type | MCP Required | Description |
+|------------|------|--------------|-------------|
+| Slack Integration | Skill | Slack MCP | Team communication analysis |
+| Notion Integration | Skill | Notion MCP | Knowledge base management |
+
+## 📖 Documentation
+
+### Getting Started
+- **[CLAUDE-CAPABILITIES-PLAN.md](CLAUDE-CAPABILITIES-PLAN.md)** - Complete 26-capability roadmap
+- **[MCP-SETUP-GUIDE.md](MCP-SETUP-GUIDE.md)** - Step-by-step MCP configuration
+- **[CLAUDE.md](CLAUDE.md)** - Your agent's persistent memory and preferences
+
+### Skills Documentation
+- [Internet Search](.claude/skills/internet-search.md) - Multi-source web research
+- [Email Analyzer](.claude/skills/email-analyzer.md) - Intelligent email management
+- [Meeting Scheduler](.claude/skills/meeting-scheduler.md) - Smart scheduling
+- [Document Summarizer](.claude/skills/document-summarizer.md) - Document analysis
+- [Data Analyzer](.claude/skills/data-analyzer.md) - Metrics and trends
+
+### Commands Documentation
+- [Daily Briefing](.claude/commands/daily-briefing.md) - Morning routine
+- [Deep Research](.claude/commands/deep-research.md) - Comprehensive research
+- [Weekly Review](.claude/commands/weekly-review.md) - Weekly reflection
+- [Meeting Prep](.claude/commands/meeting-prep.md) - Meeting preparation
+
+## 🏗️ Project Structure
+
 ```
-User: Search for security best practices without tracking
-→ Claude uses Brave Search API for privacy-respecting results
+claude-code-web-tests/
+├── .claude/
+│   ├── skills/               # Auto-activating capabilities
+│   │   ├── internet-search.md
+│   │   ├── email-analyzer.md
+│   │   ├── meeting-scheduler.md
+│   │   ├── document-summarizer.md
+│   │   └── data-analyzer.md
+│   ├── commands/             # Manual workflows
+│   │   ├── daily-briefing.md
+│   │   ├── deep-research.md
+│   │   ├── weekly-review.md
+│   │   └── meeting-prep.md
+│   └── memory/               # Additional context files
+│
+├── examples/                 # Usage examples
+│   └── search-examples.md
+│
+├── CLAUDE.md                 # Persistent memory (loaded every session)
+├── CLAUDE-CAPABILITIES-PLAN.md  # Complete roadmap
+├── MCP-SETUP-GUIDE.md        # MCP integration guide
+├── .env.example              # API keys template
+├── .gitignore
+└── README.md                 # This file
 ```
 
-### Multi-Tool Research
-```
-User: Research API rate limiting best practices with implementation examples
-→ Claude combines WebSearch (overview) + Firecrawl (code extraction)
-```
+## 🔧 Configuration
 
-See [examples/search-examples.md](examples/search-examples.md) for more detailed examples.
+### Skills vs Commands vs Memory
 
-## 🔑 API Keys Setup
+**Skills** (.claude/skills/):
+- Auto-activate when relevant to conversation
+- Provide contextual expertise
+- ~5k tokens when active
+- Example: Email analyzer activates when discussing emails
 
-### Firecrawl (Web Scraping)
-1. Sign up at [firecrawl.dev](https://firecrawl.dev)
-2. Get API key from dashboard
-3. Add to `.env`: `FIRECRAWL_API_KEY=your-key`
+**Slash Commands** (.claude/commands/):
+- Manually triggered with `/command-name`
+- Explicit workflows you control
+- On-demand execution
+- Example: `/daily-briefing` for morning routine
 
-### Brave Search (Privacy-Focused)
-1. Sign up at [brave.com/search/api](https://brave.com/search/api/)
-2. Get API key
-3. Add to `.env`: `BRAVE_API_KEY=your-key`
+**Memory** (CLAUDE.md, .claude/memory/):
+- Always loaded in every session
+- Persistent preferences and context
+- Project guidelines and standards
+- Example: Your communication style, work hours
 
-### Serper (Google Results)
-1. Sign up at [serper.dev](https://serper.dev)
-2. Get API key
-3. Add to `.env`: `SERPER_API_KEY=your-key`
-
-### Google Custom Search (Optional)
-1. Create search engine at [programmablesearchengine.google.com](https://programmablesearchengine.google.com/)
-2. Get API key from Google Cloud Console
-3. Add to `.env`:
-   ```
-   GOOGLE_CSE_API_KEY=your-api-key
-   GOOGLE_CSE_ID=your-search-engine-id
-   ```
-
-## 🤖 How It Works
-
-The skill provides Claude with:
-
-1. **Tool Knowledge**: Detailed info about each search tool's capabilities
-2. **Decision Framework**: Logic to select the right tool for each task
-3. **Implementation Guides**: Step-by-step API usage instructions
-4. **Best Practices**: Query optimization and result validation
-
-When you make a search request, Claude:
-
-1. **Analyzes** your requirements (quick lookup vs. deep research, privacy needs, etc.)
-2. **Selects** the most appropriate tool using the decision matrix
-3. **Executes** the search with optimized queries
-4. **Processes** and validates results
-5. **Presents** organized, actionable information
+See **[CLAUDE-CAPABILITIES-PLAN.md](CLAUDE-CAPABILITIES-PLAN.md)** for detailed architecture.
 
 ## 🎯 Use Cases
 
-- **Quick Facts**: "What's the latest Python version?"
-- **Documentation Research**: "Extract all REST API endpoints from docs"
-- **Technology Comparison**: "Compare React vs Vue with recent benchmarks"
-- **Current Events**: "Latest developments in quantum computing"
-- **Privacy Research**: "VPN protocols comparison without tracking"
-- **Code Examples**: "Find TypeScript error handling best practices"
-- **Market Research**: "Cloud provider pricing comparison"
-
-## 🛠️ Advanced Features
-
-### Domain Filtering
+### Morning Routine
 ```
-Search only within official documentation sites
-→ Uses allowed_domains parameter
+/daily-briefing
+
+→ Calendar overview for the day
+→ Priority emails requiring response
+→ Suggested task prioritization
+→ Quick wins to complete
 ```
 
-### Multi-Source Verification
+### Email Management
 ```
-Verify this information from multiple sources
-→ Cross-references results from different search tools
-```
+"Analyze my inbox from the last 24 hours"
 
-### Structured Extraction
-```
-Create a comparison table from pricing pages
-→ Uses Firecrawl to extract and structure data
+→ Categorized by priority
+→ Action items extracted
+→ Draft responses for key emails
+→ Recommendations on what to defer
 ```
 
-### Combined Strategies
+### Research Projects
 ```
-Research topic broadly, then extract specific examples
-→ Combines WebSearch + Firecrawl for comprehensive results
-```
+/deep-research Comparison of Next.js vs Remix
 
-## 🔒 Privacy & Ethics
-
-- Privacy-focused tools available (Brave, DuckDuckGo)
-- Respects robots.txt and terms of service
-- No tracking for sensitive searches
-- Clear source attribution
-- Ethical web scraping practices
-
-## 📝 Project Structure
-
-```
-.
-├── .claude/
-│   └── skills/
-│       ├── internet-search.md    # Main skill definition
-│       └── README.md              # Skill setup guide
-├── examples/
-│   └── search-examples.md         # Usage examples
-├── .env.example                   # API keys template
-└── README.md                      # This file
+→ Multi-source research (15+ sources)
+→ Technical comparison table
+→ Pros/cons analysis
+→ Expert recommendations
+→ Complete citations
 ```
 
-## 🤝 Contributing
+### Weekly Planning
+```
+/weekly-review
 
-To improve this skill:
+→ Calendar analysis (meetings vs focus time)
+→ Email activity summary
+→ Accomplishments and challenges
+→ Pattern analysis
+→ Next week priorities
+```
 
-1. Add new search tools in `.claude/skills/internet-search.md`
-2. Update the decision matrix for new use cases
-3. Add implementation guides for new APIs
-4. Share example scenarios in `examples/`
+### Meeting Preparation
+```
+/meeting-prep Q4 Planning Review
+
+→ Meeting context and background
+→ Your role and objectives
+→ Questions to ask
+→ Potential challenges
+→ Materials checklist
+```
+
+## 🔐 Security & Privacy
+
+### API Key Management
+- Store keys in `.env` (gitignored)
+- Use environment variables
+- Never commit credentials
+- Rotate keys regularly
+
+### MCP Permissions
+- Minimal required scopes only
+- Review permissions before granting
+- Audit access regularly
+- Use OAuth when available
+
+### Data Privacy
+- Skills analyze locally when possible
+- MCP data fetched only when needed
+- No logging of sensitive information
+- Clear data handling policies
+
+## 🌟 Features by Integration Level
+
+### Level 1: No MCP (Works Immediately)
+- Internet search (built-in WebSearch)
+- Document summarization
+- Data analysis (on provided data)
+- Deep research command
+- Code assistance
+
+### Level 2: + Search APIs (Optional)
+- Enhanced web research
+- Privacy-focused searching
+- Web content extraction
+- Multi-source verification
+
+### Level 3: + Core MCPs (Recommended)
+**With Gmail + Google Calendar:**
+- Daily briefing with real data
+- Email analysis and drafting
+- Meeting scheduling
+- Calendar optimization
+- Weekly reviews with metrics
+
+### Level 4: + Full Suite (Maximum Power)
+**With Gmail + Calendar + Slack + Notion:**
+- Complete productivity automation
+- Cross-platform insights
+- Unified knowledge management
+- Team collaboration analysis
+- Comprehensive planning
+
+## 📈 Roadmap
+
+See **[CLAUDE-CAPABILITIES-PLAN.md](CLAUDE-CAPABILITIES-PLAN.md)** for:
+- Complete 26-capability plan
+- Phase-by-phase implementation guide
+- Priority recommendations
+- Update and maintenance process
+
+## 🤝 Customization
+
+### Adding New Skills
+
+Create `.claude/skills/your-skill.md`:
+```markdown
+# Your Skill Name
+
+## Purpose
+What this skill does and when it activates
+
+## Activation Context
+Conditions that trigger this skill
+
+## Capabilities
+What the skill can do
+
+[Implementation details...]
+```
+
+### Adding New Commands
+
+Create `.claude/commands/your-command.md`:
+```markdown
+# Your Command
+
+When user runs `/your-command`, do:
+
+1. Step 1
+2. Step 2
+3. Step 3
+
+[Detailed instructions...]
+```
+
+### Customizing Memory
+
+Edit `CLAUDE.md` to add:
+- Your work preferences
+- Communication style
+- Team standards
+- Project context
+- Recurring instructions
+
+## 🛠️ Troubleshooting
+
+### Skills Not Activating
+- Check file is in `.claude/skills/`
+- Verify markdown formatting
+- Make description clear for when to activate
+- Try explicitly mentioning the skill's domain
+
+### Commands Not Available
+- Ensure file is in `.claude/commands/`
+- Check filename matches command name
+- Restart Claude Code
+- Verify no syntax errors in markdown
+
+### MCP Issues
+- Run `claude mcp list` to verify servers
+- Check API keys in environment variables
+- Review [MCP-SETUP-GUIDE.md](MCP-SETUP-GUIDE.md)
+- Test with `/mcp` command
+
+## 📚 Resources
+
+### Official Documentation
+- [Claude Code Docs](https://docs.claude.com/en/docs/claude-code)
+- [Skills Documentation](https://docs.claude.com/en/docs/claude-code/skills)
+- [Slash Commands](https://docs.claude.com/en/docs/claude-code/slash-commands)
+- [MCP Documentation](https://docs.anthropic.com/en/docs/claude-code/mcp)
+
+### Community Resources
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)
+- [Production Commands](https://github.com/wshobson/commands)
+- [Claude Code Guide](https://github.com/Cranot/claude-code-guide)
+
+### MCP Resources
+- [PulseMCP Directory](https://www.pulsemcp.com)
+- [MCP Servers Repo](https://github.com/modelcontextprotocol/servers)
+- [Composio MCP Platform](https://mcp.composio.dev)
+
+## 🙏 Acknowledgments
+
+Built on best practices from:
+- Anthropic's Claude Code team
+- Claude Code community contributors
+- Model Context Protocol developers
+- Open source MCP server maintainers
 
 ## 📄 License
 
@@ -215,21 +415,22 @@ This project is open source and available for use and modification.
 
 ## 🆘 Support
 
-- Check the [skill documentation](.claude/skills/internet-search.md)
-- Review [usage examples](examples/search-examples.md)
-- Verify [API configuration](.claude/skills/README.md)
-- Try alternative search tools if one fails
+1. Check relevant documentation file
+2. Review troubleshooting section
+3. Verify MCP server status
+4. Test with minimal configuration
+5. Check community resources
 
-## ✨ Tips
+## ✨ Tips for Success
 
-1. **Let Claude Choose**: The skill works best when Claude selects the tool automatically
-2. **Be Specific**: Clear requirements help Claude pick the right tool
-3. **Start Simple**: Built-in WebSearch works great for most queries
-4. **Add APIs Gradually**: Start with one or two external APIs, add more as needed
-5. **Verify Important Info**: Claude can cross-check facts using multiple sources
+1. **Start Simple** - Use built-in capabilities first, add MCPs gradually
+2. **Customize Memory** - Update CLAUDE.md with your preferences
+3. **Test Incrementally** - Verify each capability works before adding more
+4. **Review Weekly** - Use `/weekly-review` to refine your setup
+5. **Share Learnings** - Contribute improvements back to community
 
 ---
 
-**Happy Searching!** 🔍
+**Transform Claude Code into your personal AI assistant.** 🚀
 
-For questions or issues, please refer to the documentation in `.claude/skills/` directory.
+For questions or improvements, see the documentation in `.claude/` directories or consult the guides listed above.
