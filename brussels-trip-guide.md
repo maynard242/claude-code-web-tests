@@ -16,11 +16,36 @@
 
 ## Your Hotel: Thon Residence Parnasse
 
-**Location**: Ixelles, European Quarter
+**Location**: Ixelles, European Quarter (Rue d'Idalie 8)
 - Near Luxembourg train station (direct connection to Brussels airport)
 - Walking distance to Place du Luxembourg (restaurants and nightlife)
 - Great location for exploring Ixelles Art Nouveau architecture
 - Several cafes, restaurants, and grocery stores nearby
+
+### What's Near Your Hotel? ✨
+
+**Walking Distance (in Ixelles):**
+
+**Patisseries:**
+- **Nicolas Arnaud** - 93 rue Américaine, Ixelles (Châtelain district) - 10-15 min walk
+- **Le Saint-Aulaye** - 130 rue Américaine, Ixelles (same street as Nicolas Arnaud!) - 10-15 min walk
+- **Pierre Marcolini** - Place Fernand Cocq, Ixelles - 10-15 min walk
+
+**Chinese Restaurants:**
+- **Le Confucius** - Rue Capitaine Crespel 10, Ixelles (near Porte de Namur) - 10-15 min walk
+- **Dam Sum** - Parvis de la Trinité 11, Ixelles - ~15 min walk
+
+**Neighborhood:**
+- **Place du Châtelain** - Charming square with restaurants and Wednesday market - 10-15 min walk
+
+**In Central Brussels (metro/tram recommended - ~20 min):**
+- Yi Chan (Chinese) - Near Bourse/Stock Exchange
+- Dam Sum (also has a central location) - Near city center
+- Wittamer - Place du Grand Sablon
+- Aux Merveilleux de Fred - Near Grand Place
+- All the major landmarks (Grand Place, etc.)
+
+**Bottom line**: You have excellent patisseries (Nicolas Arnaud, Saint-Aulaye, Pierre Marcolini) and Chinese food (Le Confucius, Dam Sum) within walking distance of your hotel! The Ixelles neighborhood is perfect for foodies.
 
 ---
 
@@ -125,10 +150,13 @@ Famous restaurant popular with tourists and locals for reasonably-priced mussels
 
 Since you're looking for excellent Chinese food, here are the best options in Brussels:
 
-#### Top Recommendations:
-- **Yi Chan**: Family-run restaurant near Brussels Stock Exchange. Expertly crafted dim sum (xiao long bao, char siu bao) and flavorful pho bowls
-- **Dam Sum**: One of the best dim sum places in Brussels - highly recommended
-- **Le Confucius**: Fantastic food, welcoming atmosphere, fair prices - definitely worth a visit
+#### Top Recommendations Near Your Hotel:
+- **Le Confucius** ⭐ *WALKING DISTANCE*: Rue Capitaine Crespel 10, Ixelles (10-15 min walk). Fantastic food, welcoming atmosphere, fair prices - definitely worth a visit
+- **Dam Sum** ⭐ *WALKING DISTANCE*: Parvis de la Trinité 11, Ixelles (~15 min walk). One of the best dim sum places in Brussels - highly recommended
+
+#### Top Recommendations in Central Brussels:
+- **Yi Chan**: Rue Jules Van Praet 13 (near Bourse). Family-run restaurant with expertly crafted dim sum (xiao long bao, char siu bao) and flavorful pho bowls
+- **Dam Sum** (central location): Also at Quai du bois a bruler 51 in city center
 - **WOKUP**: Small, intimate restaurant serving authentic Chinese food in contemporary setting
 
 #### Other Excellent Options:
@@ -142,14 +170,14 @@ Since you're looking for excellent Chinese food, here are the best options in Br
 
 For your love of great desserts, Brussels has world-class patisseries:
 
-#### Must-Visit:
-- **Wittamer**: A Brussels institution for over 100 years, many consider it the pinnacle of pastry shops in the Belgian capital. Located opposite Pierre Marcolini
-- **Pierre Marcolini**: Voted world's best pastry chef in 2020. Exceptional chocolates and pastries
-- **Nicolas Arnaud**: One of the big names in pastry making in Belgium and France. Workshop in Châtelain district is foodie heaven
-- **Saint-Aulaye**: Traditional craft bakery, a reference in Brussels for almost 40 years
+#### Must-Visit Near Your Hotel ⭐ *WALKING DISTANCE*:
+- **Nicolas Arnaud**: 93 rue Américaine, Ixelles (10-15 min walk). One of the big names in pastry making in Belgium and France. Workshop in Châtelain district is foodie heaven. European Pastry Champion 2016!
+- **Le Saint-Aulaye**: 130 rue Américaine, Ixelles (10-15 min walk, same street as Nicolas Arnaud!). Traditional craft bakery, a reference in Brussels for almost 40 years. Open Tue-Sat 7am-7pm
+- **Pierre Marcolini**: Place Fernand Cocq 3, Ixelles (10-15 min walk). Voted world's best pastry chef in 2020. Exceptional chocolates and pastries
 
-#### Popular Choices:
-- **Aux Merveilleux de Fred**: Known for exquisite brioche and exceptional desserts
+#### Must-Visit in Central Brussels:
+- **Wittamer**: Place du Grand Sablon (central Brussels). A Brussels institution for over 100 years, many consider it the pinnacle of pastry shops in the Belgian capital
+- **Aux Merveilleux de Fred**: Rue du Marché aux Herbes 7 (near Grand Place). Known for exquisite brioche and exceptional desserts
 - **Méert**: Classic Belgian patisserie
 - **Maison Dandoy**: Famous for traditional Belgian biscuits and waffles
 - **Gâteau**: Boulangerie-patisserie by French artisan baker Baptiste Maurel
@@ -195,34 +223,43 @@ Brussels has good public transport (metro, trams, buses). The city center is wal
 
 ### Wednesday Evening (After Meetings)
 - Dinner options:
-  - **Yi Chan** or **Dam Sum** (Chinese/dim sum)
-  - **Le Plattesteen** or **Au Vieux Saint Martin** (traditional Belgian)
-- Dessert at **Nicolas Arnaud** (Châtelain district, near your hotel!)
-- Evening stroll through **illuminated Grand Place**
+  - **Le Confucius** or **Dam Sum** Ixelles location (Chinese/dim sum - both walking distance from hotel!)
+  - **Yi Chan** (central Brussels, best dim sum - worth the metro ride)
+  - **Le Plattesteen** or **Au Vieux Saint Martin** (traditional Belgian - central Brussels)
+- Dessert at **Nicolas Arnaud** or **Le Saint-Aulaye** (both walking distance on rue Américaine!)
+- Evening stroll through **illuminated Grand Place** (if you go to central Brussels for dinner)
 - Drinks at **Delirium Café** or **L'Archiduc** (jazz)
 
 ### Thursday
 Busy with meetings and dinner - enjoy!
 
-Between meetings, grab a pastry from **Aux Merveilleux de Fred** or **Maison Dandoy**
+Between meetings options:
+- Grab a quick pastry from **Nicolas Arnaud** or **Le Saint-Aulaye** (both near hotel on rue Américaine!)
+- Or visit **Aux Merveilleux de Fred** or **Maison Dandoy** if you're in central Brussels
 
 ### Friday (Full Day Free)
 **Morning:**
-- Visit **The Atomium**
-- Explore **Art Nouveau neighborhoods** in Ixelles (you're staying right there!)
+- Breakfast/pastries at **Nicolas Arnaud** or **Le Saint-Aulaye** (both near hotel!)
+- Visit **The Atomium** (take metro)
+- Explore **Art Nouveau neighborhoods** in Ixelles (you're staying right there! Walk around your neighborhood)
 
 **Lunch:**
-- **Yi Chan** or **WOKUP** (Chinese)
-- **Leon** (moules-frites)
+- **Le Confucius** or **Dam Sum** Ixelles (Chinese - walking distance from hotel!)
+- **Yi Chan** or **WOKUP** (Chinese in central Brussels - worth the trip for dim sum)
+- **Leon** (moules-frites - central Brussels)
 
 **Afternoon:**
-- Dessert crawl: Visit **Saint-Aulaye**, **Méert**, or **Gâteau**
-- Discover hidden gems: **Rue de la Cigogne**, **The Black Tower**
-- Explore **St. Gilles** or **Matongé** neighborhoods
+- Dessert crawl in your neighborhood: Walk rue Américaine to visit both **Le Saint-Aulaye** and **Nicolas Arnaud**
+- Try **Pierre Marcolini** at Place Fernand Cocq (also near hotel!)
+- Discover **Place du Châtelain** (10-15 min walk - Wednesday market if you're there on Wed!)
+- Or explore central Brussels: **Rue de la Cigogne**, **The Black Tower**, **St. Gilles** or **Matongé** neighborhoods
 
 **Evening:**
-- Dinner: **Le Confucius** (Chinese) or **Woodpeck 47**/**Sir Kwinten** (fine dining)
-- Nightlife in **Saint-Géry** or explore **Place du Luxembourg** (near your hotel)
+- Dinner options:
+  - **Le Confucius** (Chinese, walking distance from hotel)
+  - **Woodpeck 47**/**Sir Kwinten** (fine dining in central Brussels)
+  - Explore restaurants around **Place du Châtelain** (near hotel)
+- Nightlife: **Place du Luxembourg** (near your hotel) or **Saint-Géry** (central Brussels)
 
 ---
 
